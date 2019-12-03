@@ -65,9 +65,8 @@ header h1 {
 .nav {
   grid-column: 2/4;
   grid-row: 2/3;
-  background-color:seashell;
   display: flex;
-  background-color:seashell;
+/*   background-color:seashell; */
 /*   margin-right: 365px; */
   justify-items: start;
   border-collapse: separate;
@@ -81,6 +80,7 @@ header h1 {
   font-size: 14px;
   text-align: center;
   vertical-align: middle;
+  background-color: seashell;
   /* border: 1px solid rgba(70, 68, 75, 1); */
 }
 
