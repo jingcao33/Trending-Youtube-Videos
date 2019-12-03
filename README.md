@@ -29,8 +29,8 @@ We use the same bubble and color as the first chart to indicate each video and c
 
 
 ### Average Views per Day Over 6 Months
-The lollipop chart is also a result of D3. We also use axis and coordinates to determine the circle's position. We combined lines and circles to appear as a lollipop. To achieve the animation, we use 0 as orginal x coordinate, and then use transition function with duration and set new coordinate.
+The lollipop chart is also a result of D3. We also use axis and coordinates to determine the circle's position. We combined lines and circles to appear as a lollipop. To achieve the animation, we use 0 as orginal x coordinate, and then use transition function with duration and set new coordinate. We also add tooltips for each lollipop, when you hover over the circle, the concrete data of Average Views per Day will appear.
 
-Referenece:
+### Referenece:
 Trending YouTube Video Statistics. Mitchell J. 2019. Retrived from https://www.kaggle.com/datasnaek/youtube-new.
 https://www.d3-graph-gallery.com/index.html
