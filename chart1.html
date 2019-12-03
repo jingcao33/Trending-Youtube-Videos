@@ -1,0 +1,57 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>chart 1 test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- <script src="d3.v4.js"></script> -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            circle:hover {
+            stroke: black;
+            /* stroke-width:2px; */
+            }
+        </style>
+    </head>
+
+    <body>
+      <div class="container">
+        <header>
+          <h1>Three Ways to Visualize the Top 100 Trending Videos on Youtube in U.S.</h1>
+          <h2>Exploring determining factors of top trending videos including measuring users interactions
+           such as number of views, categories, comments and likes </h2>
+        </header>
+
+        <div class="nav">
+          <a class="current" href="#description">Types of Videos & Number of Views</a>
+          <a href = "chart2.html">Like/Dislike Ratio & Number of Comments</a>
+          <a href = "month_views.html">Average Views per Day Over 6 Months</a>
+        </div>
+        
+        <div class="description" id="description">
+          <h3>Different categories composing the top trending videos in relation to the number of views</h3>
+          <p>- Most trending videos fall in the category of music. <br> - Entertainment videos also attract a large portion of the popularity.</p>
+        </div>
+
+        <div id="bubble_map_1"></div>
+
+        <!-- <div class="code">
+          <img src="img/bubble-map-svg.png" alt="">
+        </div> -->
+
+      </div>
+        <!-- Initialize a select button -->
+        <!-- <select id="selectButton"></select> -->
+    </body>
+
+    <footer>
+      <h4>Design and coded by Jing Cao,Yue Ma and Becky Peng </h4>
+    </footer>
+
+    <script src="base.js"></script>
+    <!-- <script src="transition.js"></script> -->
+
+
+</html>
