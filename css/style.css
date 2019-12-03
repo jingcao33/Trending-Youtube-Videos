@@ -68,7 +68,8 @@ header h1 {
   background-color:seashell;
   display: flex;
   background-color:seashell;
-  margin-right: 365px;
+/*   margin-right: 365px; */
+  justify-items: start;
   border-collapse: separate;
 }
 
