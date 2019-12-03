@@ -13,7 +13,7 @@ const svg = d3.select("#bubble_map_1")
 var categoryList = ["Film_Animation", 'Autos_Vehicles', 'Music', 'Sports', 'Travel_Events', 'People_Blogs', 'Entertainment', 'Howto_Style', 'Science_Technology', 'Nonprofits_Activism', 'Comedy']
 
 
-d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/video_dataset.csv", function (data) {
+d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/data/video_dataset.csv", function (data) {
 
         // create a tooltip
         var Tooltip = d3.select("#bubble_map_1")

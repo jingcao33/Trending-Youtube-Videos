@@ -13,7 +13,7 @@ var svg = d3.select("#bubble_map_2")
       "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/video_dataset.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/data/video_dataset.csv", function(data) {
 
 // ---------------------------//
 //       AXIS  AND SCALE      //

@@ -13,7 +13,7 @@
               "translate(" + margin.left + "," + margin.top + ")");
     
     // Parse the Data
-    d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/month_view.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/jingcao33/Trending-Youtube-Videos/master/data/month_view.csv", function(data) {
     
     // sort data
     // data.sort(function(b, a) {
