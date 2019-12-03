@@ -11,7 +11,7 @@ We focus on the top 100 videos based on the number of views in US dataset for th
 
 When we looked at the cleaned data, we found out that the date (basically month) is a factor to effect the number of view as well. So we calculated the average of views_per_day for each month and created a new csv file called "month_view.csv".
 
-### Finding
+### Findings
 1. Most trending videos fall in the category of "Music" and "Entertainment" videos also attract a large portion of the popularity. Our finding corresponds with the original findings that the top performers on the trending list are music videos, "celebrity and/or reality TV performances", and "the random dude-with-a-camera viral videos that YouTube is well-known for" (Mitchell J., 2019).
 
 2. Low rate of likes/dislikes indicates the video is controversial. And videos with many comments tend to have a low rate of likes/dislikes. Besides, people prefer upvoting music videos over making a comment, which is reasonable that upvoting takes much less effort and time than writing a comment.
