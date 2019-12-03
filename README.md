@@ -3,7 +3,7 @@ Top 100 trending youtube videos from Nov, 2017 to Dec, 2018.
 
 This project uses D3 and HTML/CSS to make a series of bubble charts with animation and interaction. We visualized the data such as number of views, like, dislike, comments of videos,publish date,and trending date on Youtube in the United States from November 2017 to June 2018 to see if there is any correlation between those factors.
 
-## deployed page url
+## Deployed Page URL
 https://jingcao33.github.io/Trending-Youtube-Videos/index.html
 
 ## Data
